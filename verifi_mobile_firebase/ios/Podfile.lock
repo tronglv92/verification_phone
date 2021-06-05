@@ -1,0 +1,147 @@
+PODS:
+  - Firebase/Auth (8.0.0):
+    - Firebase/CoreOnly
+    - FirebaseAuth (~> 8.0.0)
+  - Firebase/CoreOnly (8.0.0):
+    - FirebaseCore (= 8.0.0)
+  - Firebase/Crashlytics (8.0.0):
+    - Firebase/CoreOnly
+    - FirebaseCrashlytics (~> 8.0.0)
+  - firebase_auth (1.2.0):
+    - Firebase/Auth (= 8.0.0)
+    - firebase_core
+    - Flutter
+  - firebase_core (1.2.1):
+    - Firebase/CoreOnly (= 8.0.0)
+    - Flutter
+  - firebase_crashlytics (2.0.5):
+    - Firebase/Crashlytics (= 8.0.0)
+    - firebase_core
+    - Flutter
+  - FirebaseAuth (8.0.0):
+    - FirebaseCore (~> 8.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.4)
+    - GoogleUtilities/Environment (~> 7.4)
+    - GTMSessionFetcher/Core (~> 1.5)
+  - FirebaseCore (8.0.0):
+    - FirebaseCoreDiagnostics (~> 8.0)
+    - GoogleUtilities/Environment (~> 7.4)
+    - GoogleUtilities/Logger (~> 7.4)
+  - FirebaseCoreDiagnostics (8.1.0):
+    - GoogleDataTransport (~> 9.0)
+    - GoogleUtilities/Environment (~> 7.4)
+    - GoogleUtilities/Logger (~> 7.4)
+    - nanopb (~> 2.30908.0)
+  - FirebaseCrashlytics (8.0.0):
+    - FirebaseCore (~> 8.0)
+    - FirebaseInstallations (~> 8.0)
+    - GoogleDataTransport (~> 9.0)
+    - nanopb (~> 2.30908.0)
+    - PromisesObjC (~> 1.2)
+  - FirebaseInstallations (8.1.0):
+    - FirebaseCore (~> 8.0)
+    - GoogleUtilities/Environment (~> 7.4)
+    - GoogleUtilities/UserDefaults (~> 7.4)
+    - PromisesObjC (~> 1.2)
+  - Flutter (1.0.0)
+  - GoogleDataTransport (9.0.0):
+    - GoogleUtilities/Environment (~> 7.2)
+    - nanopb (~> 2.30908.0)
+    - PromisesObjC (~> 1.2)
+  - GoogleUtilities/AppDelegateSwizzler (7.4.1):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (7.4.1):
+    - PromisesObjC (~> 1.2)
+  - GoogleUtilities/Logger (7.4.1):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/Network (7.4.1):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (7.4.1)"
+  - GoogleUtilities/Reachability (7.4.1):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (7.4.1):
+    - GoogleUtilities/Logger
+  - GTMSessionFetcher/Core (1.5.0)
+  - nanopb (2.30908.0):
+    - nanopb/decode (= 2.30908.0)
+    - nanopb/encode (= 2.30908.0)
+  - nanopb/decode (2.30908.0)
+  - nanopb/encode (2.30908.0)
+  - phone_number (0.11.0):
+    - Flutter
+    - PhoneNumberKit/PhoneNumberKitCore (= 3.3.3)
+  - PhoneNumberKit/PhoneNumberKitCore (3.3.3)
+  - PromisesObjC (1.2.12)
+  - shared_preferences (0.0.1):
+    - Flutter
+  - sms_autofill (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - firebase_auth (from `.symlinks/plugins/firebase_auth/ios`)
+  - firebase_core (from `.symlinks/plugins/firebase_core/ios`)
+  - firebase_crashlytics (from `.symlinks/plugins/firebase_crashlytics/ios`)
+  - Flutter (from `Flutter`)
+  - phone_number (from `.symlinks/plugins/phone_number/ios`)
+  - shared_preferences (from `.symlinks/plugins/shared_preferences/ios`)
+  - sms_autofill (from `.symlinks/plugins/sms_autofill/ios`)
+
+SPEC REPOS:
+  trunk:
+    - Firebase
+    - FirebaseAuth
+    - FirebaseCore
+    - FirebaseCoreDiagnostics
+    - FirebaseCrashlytics
+    - FirebaseInstallations
+    - GoogleDataTransport
+    - GoogleUtilities
+    - GTMSessionFetcher
+    - nanopb
+    - PhoneNumberKit
+    - PromisesObjC
+
+EXTERNAL SOURCES:
+  firebase_auth:
+    :path: ".symlinks/plugins/firebase_auth/ios"
+  firebase_core:
+    :path: ".symlinks/plugins/firebase_core/ios"
+  firebase_crashlytics:
+    :path: ".symlinks/plugins/firebase_crashlytics/ios"
+  Flutter:
+    :path: Flutter
+  phone_number:
+    :path: ".symlinks/plugins/phone_number/ios"
+  shared_preferences:
+    :path: ".symlinks/plugins/shared_preferences/ios"
+  sms_autofill:
+    :path: ".symlinks/plugins/sms_autofill/ios"
+
+SPEC CHECKSUMS:
+  Firebase: 73c3e3b216ec1ecbc54d2ffdd4670c65c749edb1
+  firebase_auth: f960df4ddd8cb415859dbc01a02d7859925ddef0
+  firebase_core: a9b69f8583dc992f1b15f376b4918537c1804bb4
+  firebase_crashlytics: 5ecd67c6e882cc0483bc7cb403e57307d43a630b
+  FirebaseAuth: b8cd992fca5b53dc6eec09e873a3f375f000c5a1
+  FirebaseCore: 3f09591d51292843e2a46f18358d60bf4e996255
+  FirebaseCoreDiagnostics: 3e249cee3de5c5f9cfd6cc2a19997231286fec11
+  FirebaseCrashlytics: 69cddb6bfa7656c5346e603bc85b029392252ee6
+  FirebaseInstallations: 7f31798a8198c354eadcb87176d2090b62edc187
+  Flutter: 434fef37c0980e73bb6479ef766c45957d4b510c
+  GoogleDataTransport: 11e3a5f2c190327df1a4a5d7e7ae3d4d5b9c9e4c
+  GoogleUtilities: f8a43108b38a68eebe8b3540e1f4f2d28843ce20
+  GTMSessionFetcher: b3503b20a988c4e20cc189aa798fd18220133f52
+  nanopb: a0ba3315591a9ae0a16a309ee504766e90db0c96
+  phone_number: aaf1197d6ff991ac59640e7f73472e06f2efac95
+  PhoneNumberKit: 4ce83273551c4d2ae10b7361162f4283dd02835f
+  PromisesObjC: 3113f7f76903778cf4a0586bd1ab89329a0b7b97
+  shared_preferences: af6bfa751691cdc24be3045c43ec037377ada40d
+  sms_autofill: c461043483362c3f1709ee76eaae6eb570b31686
+
+PODFILE CHECKSUM: fe0e1ee7f3d1f7d00b11b474b62dd62134535aea
+
+COCOAPODS: 1.10.1

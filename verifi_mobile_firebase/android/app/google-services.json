@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1000441992827",
+    "project_id": "verfy-number-mobile",
+    "storage_bucket": "verfy-number-mobile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1000441992827:android:d422ec341b331d3f79b4de",
+        "android_client_info": {
+          "package_name": "com.example.verifi_mobile_firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1000441992827-0jc4q0lscfijta8fnni965mmj02s5us9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.verifi_mobile_firebase",
+            "certificate_hash": "2b62ff2e7b9e063934d1f9d9041ad0c12044ff41"
+          }
+        },
+        {
+          "client_id": "1000441992827-ncu9dqetb2s2lkarhoaf4v30d1mat81i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDD2wPDk4vQhGOxzOu43Ws8bgNyiVIoTLI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1000441992827-ncu9dqetb2s2lkarhoaf4v30d1mat81i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
